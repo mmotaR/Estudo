@@ -1,2 +1,2 @@
 # Estudo
-Repositório de estudo parte pratica ! 
+Repositório de estudo parte pratica (Começando um novo caminho)
