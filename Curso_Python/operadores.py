@@ -12,7 +12,7 @@
 # >= Maior ou igual a ! Ex. 5 >= 5 é True ou 4 >= 5 é False
 # <= Menor ou igual a ! Ex. 3 <= 4 é True ou 5 <= 4 é False 
 
-print(2 + 3)  # Soma
+print(4 + 3)  # Soma
 print(5 - 2)  # Subtração
 print(4 * 3)  # Multiplicação   
 print(10 / 2)  # Divisão
@@ -24,4 +24,4 @@ print(3 != 4)  # Diferente de
 print(5 > 3)  # Maior que
 print(3 < 5)  # Menor que
 print(5 >= 5)  # Maior ou igual a
-print(3 <= 4)  # Menor ou igual a
+print(3 <= 4)  # Menor ou igual a   
