@@ -7,7 +7,7 @@
 # Exemplo de variáveis com diferentes tipos de dados:
 
 nome = "Matheus"  # String (texto)
-idade = 30      # Inteiro (número inteiro) 
+idade = 29     # Inteiro (número inteiro) 
 altura = 1.65   # Float (número decimal)
 dev = True      # Booleano (verdadeiro ou falso)
 
