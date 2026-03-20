@@ -18,3 +18,10 @@ print(4 * 3)  # Multiplicação
 print(10 / 2)  # Divisão
 print(2 ** 3)  # Potenciação    
 print(10 % 3)  # Resto da divisão
+print(10 // 3)  # Divisão inteira
+print(5 == 5)  # Igual a
+print(3 != 4)  # Diferente de
+print(5 > 3)  # Maior que
+print(3 < 5)  # Menor que
+print(5 >= 5)  # Maior ou igual a
+print(3 <= 4)  # Menor ou igual a
