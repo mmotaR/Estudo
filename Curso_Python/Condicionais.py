@@ -32,12 +32,12 @@
 
 #Código abaixo: 
 
-#idade = int(input("Digite sua idade: ")) #Usuário digita a idade.
+idade = int(input("Digite sua idade: ")) #Usuário digita a idade.
 
-#if idade >= 18:
-#    print("Você pode entrar no evento.")
-#else:
-#    print("Desculpe, você não tem idade suficiente para entrar no evento.")
+if idade >= 18:
+    print("Você pode entrar no evento.")
+else:
+  print("Desculpe, você não tem idade suficiente para entrar no evento.")
 
 # Verificando a nota de um aluno. 
 
