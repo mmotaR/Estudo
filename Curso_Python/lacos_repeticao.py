@@ -31,24 +31,24 @@
 
 # (1, 2, 3, 4, 5)
 
-#for numero in range(1, 51):
-#    print(numero)
+for numero in range(1, 51):
+   print(numero)
 
 # O range (1, 6) gera uma sequência de números de 1 a 5 (o 6 não é incluído).
 
 # Percorrendo um lista de compras
 
-# compras = ["leite", "pão", "ovos", "frutas"]
+compras = ["leite", "pão", "ovos", "frutas"]
 
-#for item in compras:
-#    print(f" comprar: {item}")
+for item in compras:
+   print(f" comprar: {item}")
 
 # Percorrendo as letras de uma palavra
 
-#palavra = "Python"
+palavra = "Python"
 
-#for letra in palavra:
-#    print(letra)
+for letra in palavra:
+   print(letra)
 
 # While 
 
@@ -64,13 +64,13 @@
 
 # Contagem regressiva com while:
 
-# contador = 5
+contador = 5
 
-# while contador > 0:
-#     print(contador)
-#     contador -= 1 # Diminuindo 1 do contador a cada repetição;
+while contador > 0:
+    print(contador)
+    contador -= 1 # Diminuindo 1 do contador a cada repetição;
 
-# print ("Fogo !")
+print ("Fogo !")
 
 # Pedindo senha até acertar:
 
