@@ -1,5 +1,5 @@
 # Estudo
-Repositório de estudo prático — começando um novo caminho.
+Repositório de estudo prático.
 
 ## Tecnologias
 - Python 3
