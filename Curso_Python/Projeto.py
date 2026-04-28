@@ -10,8 +10,8 @@ while tentativa != numero_secreto: # Enquanto a tentativa for diferente do núme
    tentativa = int(input("Tente adivinhar um número de 1 a 10:"))
    
    if tentativa < numero_secreto: # Se a tentativa for menor que o número secreto, o programa informa que é muito baixo.
-      print("Muito baixo! Tente novamente.") # Se a tentativa for maior que o número secreto, o programa informa que é muito alto.
+      print("O número secreto é maior! Tente novamente.") # Se a tentativa for maior que o número secreto, o programa informa que é muito alto.
    elif tentativa > numero_secreto:
-      print("Muito alto! Tente novamente.") # Se a tentativa for igual ao número secreto, o programa parabeniza o usuário por acertar.
+      print("O número secreto é menor! Tente novamente.") # Se a tentativa for igual ao número secreto, o programa parabeniza o usuário por acertar.
    else:
       print("Parabéns! Você acertou!") # O loop termina quando o usuário acerta o número secreto.
