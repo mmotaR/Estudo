@@ -12,16 +12,16 @@ for letra in palavra:
 
 # Cria uma variável chamada 'palavra' e guarda o texto "matheus mota"
 palavra = "matheus mota"
-letraProcurada = "m" #Constante
+letra_procurada = "m" #Constante
 
 # # Percorre cada letra da palavra, uma por vez
 for letra in palavra:
     
     # Verifica se a letra atual é igual a "m"
-    if letra == letraProcurada:
+    if letra == letra_procurada:
         
         # Se for "y", mostra a mensagem na tela
-        print("Essa palavra tem a letra", letraProcurada)
+        print("Essa palavra tem a letra", letra_procurada)
         
         # Para o loop para não repetir a mensagem
         break
