@@ -14,7 +14,7 @@ for letra in palavra:
 palavra = "matheus mota"
 letra_procurada = "m" #Constante
 
-# # Percorre cada letra da palavra, uma por vez
+# # Percorre cada letra da palavra, uma por vez.
 for letra in palavra:
     
     # Verifica se a letra atual é igual a "m"
