@@ -1,9 +1,11 @@
-# Simulador um caixa eletrônico 
+# Simulador de caixa eletrônico
 
 # O caixa eletrônico tem as seguintes funcionalidades:
 # - Consultar saldo
-# - Sacar dinheiro
+# - Sacar dinheiro (limite de 3 saques diários)
 # - Depositar dinheiro
+# - Consultar extrato com data e hora das operações
+# - Sair
 
 import datetime # Importa a biblioteca datetime para exibir a data e hora atual
 
