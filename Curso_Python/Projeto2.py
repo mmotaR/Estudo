@@ -33,7 +33,7 @@ while True: # Loop infinito para o usuário escolher as opções
         if saques_realizados >= limite_saques: # Verifica se o usuário já atingiu o limite de saques diários
             print("Limite de saques diários atingido !")
         else: # Volta para o início do loop para o usuário escolher outra opção
-            valor = float(input("Digite o valor que deseja sacar: R$ "))
+            valor = float(input("Digite o valor que deseja sacar: R$ ").replace(",", "."))
             if valor <= 0: # Verifica se o valor a ser sacado é válido
                 print("Valor inválido ! Digite um valor maior que zero.")
             elif valor > saldo: # Verifica se o valor a ser sacado é maior que o saldo disponível
@@ -46,7 +46,7 @@ while True: # Loop infinito para o usuário escolher as opções
                 extrato.append(f"{data_hora} | Saque: R${valor:.2f} | Saldo: R${saldo:.2f}") # Adiciona a operação ao extrato
 
     elif opcao == 3: # Depositar dinheiro
-        valor = float(input("Digite o valor que deseja depositar: R$"))
+        valor = float(input("Digite o valor que deseja depositar: R$").replace(",", "."))
         if valor <= 0: # Verifica se o valor a ser depositado é válido
             print("Valor inválido ! Digite um valor maior que zero.")
         else: # Volta para o início do loop para o usuário escolher outra opção
